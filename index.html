@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tic Tac Toe – Neon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="game-wrapper">
+  <h1 class="title">Tic Tac Toe<span>-Neon</span></h1>
+
+  <!-- Controls -->
+  <div class="panel">
+
+    <div class="row">
+      <div class="control-group">
+        <h3>Game Mode</h3>
+        <label>
+          <input type="radio" name="mode" value="2p" checked>
+          <span>Two-Player</span>
+        </label>
+        <label>
+          <input type="radio" name="mode" value="ai">
+          <span>Single-Player (vs AI)</span>
+        </label>
+      </div>
+
+      <div class="control-group">
+        <h3>Difficulty</h3>
+        <select id="difficulty">
+          <option value="easy">Easy – Random</option>
+          <option value="medium">Medium – Smart</option>
+          <option value="hard" selected>Hard – Unbeatable</option>
+        </select>
+        <p class="hint">Difficulty is used only in AI mode.</p>
+      </div>
+    </div>
+
+    <div class="status-row">
+      <h2 id="message">Player X's turn</h2>
+    </div>
+  </div>
+
+  <!-- Board -->
+  <div class="board" id="board"></div>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button id="rematchBtn" class="btn neon">Rematch</button>
+    <button id="resetBtn" class="btn danger">Reset All</button>
+  </div>
+
+  <!-- Stats -->
+  <div id="stats" class="stats-card">
+    <h3>Stats</h3>
+    <p>Player X Wins: <span id="x-wins">0</span></p>
+    <p>Player O Wins: <span id="o-wins">0</span></p>
+    <p>Draws: <span id="draws">0</span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
