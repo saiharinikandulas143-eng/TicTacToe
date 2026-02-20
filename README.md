@@ -71,3 +71,6 @@ Stats persist across rematches.
 
 deployed link=" https://saiharinikandulas143-eng.github.io/TicTacToe/"
 github link="https://github.com/saiharinikandulas143-eng/TicTacToe"
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/aae9241e-297a-4d26-90c7-2f0fa6107f48" />
+
